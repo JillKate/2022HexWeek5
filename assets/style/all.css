@@ -1,23 +1,43 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
+*,
+*::before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+a {
+  text-decoration: none; }
+
+span {
+  vertical-align: middle; }
+
+.fs-14 {
+  font-size: 14px; }
+
+.aside {
+  padding: 32px 0 32px 32px;
+  width: 280px;
+  height: 100vh; }
+  .aside .navbar-brand {
+    padding: 0;
+    margin-bottom: 32px; }
+  .aside .user-photo {
+    background-image: url(../images/andychen.jpeg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+
+.container {
+  padding-left: 292px; }
+
+.nav {
+  padding-top: 32px;
+  padding-bottom: 32px; }
 
 /*# sourceMappingURL=all.css.map */
