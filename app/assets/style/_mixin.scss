@@ -1,0 +1,10 @@
+@mixin bg-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@mixin bg-user-photo {
+    width: 40px;
+    height: 40px;
+}
