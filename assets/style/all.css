@@ -43,12 +43,18 @@ span {
   padding-top: 32px;
   padding-bottom: 32px; }
 
-.main .student-photo {
-  background-image: url(../images/emilywang.jpeg);
+.main .student-photo,
+.main .user-photo {
   width: 40px;
   height: 40px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
+
+.main .student-photo {
+  background-image: url(../images/emilywang.jpeg); }
+
+.main .user-photo {
+  background-image: url(../images/andychen.jpeg); }
 
 /*# sourceMappingURL=all.css.map */
