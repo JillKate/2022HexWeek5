@@ -18,6 +18,9 @@ span {
 .fs-14 {
   font-size: 14px; }
 
+.fs-12 {
+  font-size: 12px; }
+
 .aside {
   padding: 32px 0 32px 32px;
   width: 280px;
@@ -39,5 +42,13 @@ span {
 .nav {
   padding-top: 32px;
   padding-bottom: 32px; }
+
+.main .student-photo {
+  background-image: url(../images/emilywang.jpeg);
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
 
 /*# sourceMappingURL=all.css.map */
