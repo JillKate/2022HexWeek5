@@ -6,3 +6,20 @@
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+.main {
+
+    .student-photo,
+    .user-photo {
+        @include bg-user-photo;
+        @include bg-img;
+    }
+
+    .student-photo {
+        background-image: url(../images/emilywang.jpeg);
+    }
+
+    .user-photo {
+        background-image: url(../images/andychen.jpeg);
+    }
+}
